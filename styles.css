@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --green: #97cc04 ;
+}
+
+body{
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+main{
+  text-align: center;
+}
+
+.title{
+  color: #0000004f;
+  font-size: 3.2em;
+  padding-top: 12px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  gap: 80px;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: #000000;
+}
+
+.form__label{
+  margin-bottom: 15px;
+  font-size: 3em;
+  padding: 2em;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: 900;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
+
+.form__input{
+  background-color: #97cc04;
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.form__btn{
+  background-color: #97cc04;
+  font-weight: 600;
+  color: #000000;
+  width: 55px;
+  height: 50px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form__btn:hover{
+transition: 0.8s;
+transform: scale(1.1);
+}
+
+.showerrordiv{
+  width: 70%;
+  color: #e71d36;
+}
+
+.pizza__section{
+  color: #000000;
+  font-weight: 500;
+}
+
+.error{
+  color: #e71d36;
+}
+
+.error__p{
+  color: #e71d36;
+}
+
+.fa-sharp{
+  color: #e71d36;
+}
+
+.pizza__price{
+  color: #97cc04;
+}
+
+.pizza__title{
+  color: #294598;
+}
+
+.result__section{
+    font-size: 20px;
+}
